@@ -1,0 +1,5 @@
+@import 'tailwindcss' source(none);
+@source './CentroTqa.tsx';
+:root{--admin-text:#182e43;--admin-card:#fff;--admin-border:#c7d5e0;--admin-card-soft:#f2f6f9;--admin-muted:#405970;--admin-accent:#006789;color-scheme:light}
+body{background:#edf2f7;font-family:system-ui,sans-serif}
+@media(prefers-color-scheme:dark){:root{--admin-text:#e6edf6;--admin-card:#19293a;--admin-border:#3b5062;--admin-card-soft:#203448;--admin-muted:#b3c3d3;--admin-accent:#7ad4f1;color-scheme:dark}body{background:#111e2c}}
